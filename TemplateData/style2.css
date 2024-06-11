@@ -5,12 +5,9 @@ body { padding: 0; margin: 0 }
 #unity-canvas { background: #231F20 }
 .unity-mobile #unity-canvas { width: 100%; height: 100% }
 #unity-loading-bar { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); display: none }
-#mery-logo { width: 263px; height: 338px; background: url('mery-logo.gif') no-repeat center }
-#mery-loading { width: 800px; height: 160px; background: url('mery-loading.gif') no-repeat center }
-#unity-progress-bar-empty { width: 263px; height: 18px; margin-top: 10px; margin-left: 0px }
-#unity-progress-bar-full { width: 0%; height: 18px; margin-top: 10px }
-#unity-progress-bar-empty2 { width: 100%; height: 18px; margin-top: 10px; margin-left: 6.5px; background: url('progress-bar-empty-dark.png') no-repeat center }
-#unity-progress-bar-full2 { width: 0%; height: 18px; margin-top: 10px; background: url('progress-bar-full-dark.png') no-repeat center }
+#unity-logo { width: 154px; height: 196px; background: url('unity-logo-dark.png') no-repeat center }
+#unity-progress-bar-empty { width: 141px; height: 18px; margin-top: 10px; margin-left: 6.5px; background: url('progress-bar-empty-dark.png') no-repeat center }
+#unity-progress-bar-full { width: 0%; height: 18px; margin-top: 10px; background: url('progress-bar-full-dark.png') no-repeat center }
 #unity-footer { position: relative }
 .unity-mobile #unity-footer { display: none }
 #unity-webgl-logo { float:left; width: 204px; height: 38px; background: url('webgl-logo.png') no-repeat center }
